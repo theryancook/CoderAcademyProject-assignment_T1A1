@@ -241,7 +241,7 @@ p arr
 ### 1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
 ### 2. Write pseudocode for the process outlined in your flowchart
 
-![diagram][docs/diagram.png]
+![diagram][./docs/diagram.png]
 
 We’d start with an array of numbers from 1, all the way to 100 inclusive. We already know that if it’s prime, it can only be divided by 1 or itself (aka n/n = 1). That also means that, if we were to divide it by every number from 1 up to itself, there will only be 2 occasions where the remainder (modulo %) is equal to 0.
 
