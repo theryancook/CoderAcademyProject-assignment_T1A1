@@ -175,13 +175,13 @@ Data types refer to the different ways in which data can exist in a program. The
 Working under a couple of assumptions - that the customers will have iPads on their tables to replace the servers, and that we’ve got some robot chefs out the back cooking up the food. 
 
 The classes that I would use to solve the issue would be:
-Meal-Creation class
+* Meal-Creation class
 This class is all to do with preparation of the food (basically replacing the chefs). The objects in this class would include ordered items, ingredients required, preparation time, cooking instructions.
 
-Order class
+* Order class
 This class is all to do with the order and selection of the food from the customer on the iPads. The objects within this class would be things such as the different menu items, different drink items, quantity, modification to menu items.
 
-Sever class
+* Sever class
 This is mostly giving the customer information (replacing the server), as well as taking payment. The elements would include greetings, confirmation of selection, payment options, reviews.
 
 I’ve divided the restaurant up into 3 different aspects. Interacting with the clients, the ordering of the food, and the preparation of the food. I’ve just created different classes that are associated with the different functions. The server class replaces the need for a server. It would greet the customer, and explain how the iPad ordering system works and provide instructions on how to use it. It’s then time for the order class to take over. Here, the customer will be able to browse the different items on the menu, make any changes or special requests, add quantity etc. Before the order is submitted, we revert back to the server class of objects to confirm the order and to take payment before it’s ready to be made. Once we’ve received payment, we move onto the Meal_Creation class that effectively replaces chefs in this situation. It is able to calculate the ingredients required, fetches ingredients, calculates time to completion for the customers. Assuming we have robot chefs, it’ll also have the recipe there too for it then to cook up all the food.
@@ -241,7 +241,7 @@ p arr
 ### 1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
 ### 2. Write pseudocode for the process outlined in your flowchart
 
-![alt text][docs/diagram.png]
+![diagram][docs/diagram.png]
 
 We’d start with an array of numbers from 1, all the way to 100 inclusive. We already know that if it’s prime, it can only be divided by 1 or itself (aka n/n = 1). That also means that, if we were to divide it by every number from 1 up to itself, there will only be 2 occasions where the remainder (modulo %) is equal to 0.
 
